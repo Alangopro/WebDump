@@ -29,6 +29,10 @@ An free and easy to use website dumper tool.
 > socketserver
 > http.server
 > argparse
+
+# You like the project?
+> Then please star it it will help me by showing it for more people.
+[![->](https://img.shields.io/github/stars/Alangopro/WebDump.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Alangopro/WebDump)
 > shutil
 > pathlib
 > threading
