@@ -23,7 +23,7 @@ An free and easy to use website dumper tool.
 > --port ( Default: 8080, specifies on wich port is the web server gonna run)
 > --noshit ( Runs on full performance mode wich may or may not speed-up the process of dumping the site.)
 
--# Requirements (Some of them are pre-installed with Python):
+### Requirements (Some of them are pre-installed with Python):
 > colorama
 > pyfiglet
 > socketserver
