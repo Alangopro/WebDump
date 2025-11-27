@@ -1,70 +1,68 @@
-# 👓 WebDump
-An free and easy to use website dumper tool.
-<br><br>
+# WebDump
 
-## Preview:
-![WDumpMocup](https://github.com/user-attachments/assets/39c31fb7-9880-4913-9c7f-83e80a2962e7)
-<br>
+**Fast, lightweight, and fully local website dumper** 
 
-> [!IMPORTANT]
-> # Download:
-> <a href="https://github.com/Alangopro/WebDump/blob/main/WDumper.py">
->  <div>
->    <img width="120" height="50" alt="⊞ Download for Windows">
->  </div>
-> </a>
-<br>
+Download complete websites for offline browsing with automatic asset fixing, beautification, and instant static hosting.
 
-> [!NOTE]
-> ### App Arguments:
-> **--castify** (Its beta but what it does is it removes all website assets links to point into localhost wich makes it ready to be served via webserver)
-> 
-> **--autohost** (Automaticly creates WebServer of your Dumped Website, can be used with Port Option)
-> 
-> **--timeout** (Default 30, If set its gonna change the time for the app to timeout)
-> 
-> **--antifont** (Prevents dumping fonts of the website to save some time)
-> 
-> **--bf** (Beatifies all files such as .html/.css/.js to look cleaner and easier to edit/read)
-> 
-> **--nosocal** (Tries to remove all social links from the index.html file such as github etc)
-> 
-> **--port** ( Default: 8080, specifies on wich port is the web server gonna run)
-> 
-> **--noshit** ( Runs on full performance mode wich may or may not speed-up the process of dumping the site.)
-<br>
+[![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
+[![Code size](https://img.shields.io/github/languages/code-size/Alangopro/WebDump?style=for-the-badge)](#)
 
-### Requirements (Some of them are pre-installed with Python):
-> *colorama*
-> 
-> *pyfiglet*
-> 
-> *socketserver*
-> 
-> *http.server*
-> 
-> *argparse*
-> 
-> *shutil*
-> 
-> *pathlib*
-> 
-> *threading*
-> 
-> *time*
-> 
-> *signal*
-> 
-> *bs4*
-> 
-> *requests*
-> 
-> *os*
-<br>
+[![GitHub stars](https://img.shields.io/github/stars/Alangopro/WebDump?style=for-the-badge)](https://github.com/Alangopro/WebDump/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Alangopro/WebDump?style=for-the-badge)](https://github.com/Alangopro/WebDump/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Alangopro/WebDump?style=for-the-badge)](https://github.com/Alangopro/WebDump/issues)
+[![Contributions](https://img.shields.io/badge/contributions-open-brightgreen.svg?style=for-the-badge)](https://github.com/Alangopro/WebDump/issues)
 
-> [!TIP]
-> # You like the project?
-> Then please star it it will help me by showing it for more people.
-> 
-[![->](https://img.shields.io/github/stars/Alangopro/WebDump.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Alangopro/WebDump)
 
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://dc.queenmc.pl/)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://feds.lol/Kamerzystanasyt)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://feds.lol/Kamerzystanasyt)
+
+## Features
+
+| Feature                 | Description                                      |
+|-------------------------|--------------------------------------------------|
+| `Blazing-fast recursive downloading` | with concurrent requests            |
+| `Automatic asset rewriting`          | fixes broken links for perfect offline experience  
+| `Built-in static server`             | serve archived sites instantly with one flag  
+| `HTML/CSS/JS beautification`         | (optional, powered by jsbeautifier & css-html-js-minify)  
+| `Intelligent performance optimizations` | (minification, compression, image optimization)  
+| `Single-file executable`             | no dependencies beyond standard Python  
+| `Cross-platform`                     | works on Windows, macOS, and Linux  
+
+## Preview
+
+![WebDump in action](https://github.com/user-attachments/assets/39c31fb7-9880-4913-9c7f-83e80a2962e7)
+
+## Usage
+
+```bash
+python WDumper.py <url> [options]
+```
+
+| Option                  | Description                                      |
+|-------------------------|--------------------------------------------------|
+| `-o, --output`          | Output directory (default: domain name)          |
+| `--serve`               | Start local server after download                |
+| `--port`                | Port for local server (default: 8000)            |
+| `--beautify`            | Beautify HTML/CSS/JS files                       |
+| `--minify`              | Minify assets for smaller size                   |
+| `--threads`             | Number of concurrent threads (default: 20)       |
+| `--delay`               | Delay between requests in seconds                |
+| `--timeout`             | Request timeout                                  |
+| `-q, --quiet`           | Suppress progress output                         |
+
+Full help:
+```bash
+python WDumper.py --help
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.  
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines (coming soon).
+
+
+This project is licensed under the **GNU General Public License v3.0** – see the [LICENSE](LICENSE) file for details.
+
+---
