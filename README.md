@@ -1,8 +1,7 @@
 # WebDump
 
-**Fast, lightweight, and fully local website dumper** 
-
-Download complete websites for offline browsing with automatic asset fixing, beautification, and instant static hosting.
+**an fast, lightweight and free website dumper** 
+Download complete websites for offline browsing with automatic asset fixing, beatifing, and instant static hosting.
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-green.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
@@ -63,6 +62,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines (coming soon).
 
 
-This project is licensed under the **GNU General Public License v3.0** – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **GNU General Public License v3.0** see the [LICENSE](LICENSE) file for details.
 
 ---
